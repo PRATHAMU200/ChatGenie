@@ -138,6 +138,10 @@ const App = () => {
           <br></br>
           <center><button onClick={resetToDefault} className="send-button">Reset to Default</button></center>
           <center><button onClick={clearChatHistory } className="send-button">Clean Chat History</button></center>
+          <div style={{position:'absolute', bottom: 20}}>
+          <center><h4>Developer: Pratham Upadhyay</h4></center>
+          <center><h4>Github: @prathamu200</h4></center>
+          </div>
         </div>
       </div>
       )}
